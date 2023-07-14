@@ -1,0 +1,27 @@
+{
+  "name": "khulnasoft-tools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Various tools for testing khulnasoft",
+  "author": {
+    "name": "khulnasoft",
+    "email": "help@khulnasoft.com",
+    "url": "https://khulnasoft.com"
+  },
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "build": "lerna exec -- npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khulnasoft-lab/khulnasoft-tools.git"
+  },
+  "license": "SEE LICENSE IN ./LICENSE",
+  "bugs": {
+    "url": "https://github.com/khulnasoft-lab/khulnasoft-tools/issues"
+  },
+  "homepage": "https://github.com/khulnasoft-lab/khulnasoft-tools#readme",
+  "dependencies": {
+    "lerna": "^3.19.0"
+  }
+}
